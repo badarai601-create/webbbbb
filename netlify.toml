@@ -1,7 +1,6 @@
 [build]
-  base = ""
-  command = "pnpm run build"
-  publish = ".next"
+  command = ""       # no build step because it's a static site
+  publish = "."      # your index.html is in the root directory
 
 [[redirects]]
   from = "/*"
